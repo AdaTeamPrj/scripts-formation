@@ -40,7 +40,16 @@ Voici la liste des scripts que l'on peut retrouver dans le dossier [scripts_algo
 |  | fonction_bonjour | 11:10 | Fonction qui donne son nom, puis dit bonjour en fonction du paramètre donné. Plusieur réponse possible. |
 |  | fonction_retour_appelant | 19:50 | Fonction qui vient prendre un autre script, ici retour, et donne le résultat.  |
 
+## JAVA
 
+
+## ReactJS
+
+
+## Bases de données
+### PostgreSQL
+
+### Oracle
 
 
 
