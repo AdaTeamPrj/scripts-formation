@@ -45,4 +45,4 @@ Voici la liste des scripts que l'on peut retrouver dans le dossier [scripts_algo
 
 
 
-[scripts_algomius]: <
+[scripts_algomius]: <https://github.com/AdaTeamPrj/scripts-formation/tree/main/scripts_algomius>
