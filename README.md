@@ -21,7 +21,7 @@ Ce Readme regroupe tous les scripts étudiés pendant notre formation de "Consul
 
 ### Scripts Bash - Vidéos Youtube Algomius
 En plus des ateliers, nous avons regardé et testé les scripts utilisés dans les vidéos d'Algomius sur Youtube.
-Voici la liste des scripts que l'on peut retrouver dans le dossier scripts_algomius
+Voici la liste des scripts que l'on peut retrouver dans le dossier [scripts_algomius]
 
 | Vidéo Algomius| NOM SCRIPT | TIMER DANS LA VIDEO | UTILITE DU CODE |
 | ------ | ------ | ------ | ------ |
@@ -39,3 +39,10 @@ Voici la liste des scripts que l'on peut retrouver dans le dossier scripts_algom
 | Algomius Fonctions Linux | fonction | 5:00 | Permet de tester les fonctions, en transformant le "a" qui a une valeur de 5 en valeur de 3.|
 |  | fonction_bonjour | 11:10 | Fonction qui donne son nom, puis dit bonjour en fonction du paramètre donné. Plusieur réponse possible. |
 |  | fonction_retour_appelant | 19:50 | Fonction qui vient prendre un autre script, ici retour, et donne le résultat.  |
+
+
+
+
+
+
+[scripts_algomius]: <
