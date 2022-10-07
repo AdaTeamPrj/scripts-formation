@@ -1,0 +1,38 @@
+CREATE OR REPLACE FUNCTION public."filltimeDim"(
+	)
+    RETURNS void
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE PARALLEL UNSAFE
+AS $BODY$
+DECLARE 
+  vDate_id DATE;
+   vYear_id CHARACTER(6);
+    vQuarter CHARACTER(6);
+    vMonth_Name VARCHAR(20);
+    vWeekday_Name VARCHAR(20);
+    vMonth_Num SMALLINT;
+    vWeekday_Num SMALLINT;
+    birth Date;
+
+BEGIN
+vDate_id = '1998-01-01' ;
+WHILE (vDate_id <= '2002-12-31') LOOP
+
+ 	vYear_id = (SELECT EXTRACT(YEAR FROM vDate_id));
+    vWeekday_Name =  (SELECT EXTRACT (DAY FROM vDate_id));	
+    vMonth_Num =  (SELECT EXTRACT (MONTH FROM vDate_id));
+    vQuarter =  (SELECT EXTRACT (QUARTER FROM vDate_id));
+	vWeekday_Num =  (SELECT EXTRACT (DOW FROM vDate_id));
+	vMonth_Name =  (SELECT TO_CHAR(vDate_id, 'Month'));
+INSERT INTO Time_Dim VALUES 
+    (vDate_id, vYear_id, vQuarter, vMonth_Name,vWeekday_Name,vMonth_Num,vWeekday_Num);
+	vDate_id = vDate_id + INTERVAL '1 DAY';
+
+ END LOOP; 
+END
+  
+$BODY$;
+
+ALTER FUNCTION public."filltimeDim"()
+    OWNER TO postgres;
