@@ -48,7 +48,7 @@ Voici la liste des scripts que l'on peut retrouver dans le dossier [scripts_algo
 
 ## Bases de données
 ### PostgreSQL
-- TP Orion : création d'un script pour remplir la table time_dim avec des dates
+- [Atelier Talend], TP Orion : création d'un script pour remplir la table time_dim avec des dates
 
 ### Oracle
 
@@ -56,3 +56,4 @@ Voici la liste des scripts que l'on peut retrouver dans le dossier [scripts_algo
 
 
 [scripts_algomius]: <https://github.com/AdaTeamPrj/scripts-formation/tree/main/scripts_algomius>
+[Atelier Talend]: < >
