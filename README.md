@@ -57,3 +57,14 @@ Voici la liste des scripts que l'on peut retrouver dans le dossier [scripts_algo
 
 [scripts_algomius]: <https://github.com/AdaTeamPrj/scripts-formation/tree/main/scripts_algomius>
 [Atelier Talend]: <https://github.com/AdaTeamPrj/scripts-formation/blob/main/Bases_de_donn%C3%A9es/PostgreSQL/atelierTalend_timeDim>
+
+
+# Mes Scripts Shell
+
+## Qui sommes nous 
+
+
+## Scripts debutant
+Dans le dossier Scripts-debutant on a la liste des scripts d'initiations .
+## Scripts intermédiaires
+## Scripts Avancées
