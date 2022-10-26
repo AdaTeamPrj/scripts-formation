@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Utilisation de if en ajoutant l'option "ou"
 echo "Entrez n'importe quel nombre"
 read n
 
