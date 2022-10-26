@@ -7,4 +7,4 @@
 
 echo "Entrez votre nom"
 read name
-echo "Bienvenue $name dans LinuxHint"
+echo "Bienvenue $name"
