@@ -1,4 +1,23 @@
-# Mes Scripts Shell
+# Adateam - Scripts 
+## _Les différents scripts étudiés pendant la formation "Consultant Fonctionnel"_
+
+[![N|Solid](https://github.com/AdaTeamPrj/scripts-formation/blob/main/image_readme/AdaTeam_Logo.png?raw=true)](https://sites.google.com/view/adp-class/accueil)
+
+Adateam - Qui sommes-nous ? 
+Une équipe de 10 personnes avec des expériences diversifiés déterminés a dompter le numérique et la gestion de projet ! 
+Ce Readme regroupe tous les scripts étudiés pendant notre formation de "Consultant Fonctionnel" dispensée par l'INTI (via le Groupe ADAMING) pour intégrer l'entreprise ADP. 
+
+
+## Modules étudiés
+
+- Programmation SHELL : Linux/Scripts Bash
+- JAVA
+- ReactJS
+- Bases de données : PostgreSQL et Oracle
+
+## Scripts Avancées
+
+Ensemble de scripts avec le niveaux avancé.
 
 ## Script d'archivage incrémental et transfert sftp automatique
 
@@ -14,8 +33,6 @@ Le script est composé de 2 fichiers.
 
 Une description detaillé sur le drive :  v0.1-11-Script d'archivage incrémental et transfert sftp automatique
 
-# Mes Scripts Shell
-
 ## Script Utilisation de $* et de $@
 
 ### Nom du fichier : Utilisation-$
@@ -26,8 +43,6 @@ Lorsqu'elles ne sont pas entourées par des guillemets, elles sont équivalentes
 
 Une description detaillé sur le drive : v0.1-01-Comparatif des variables $* et $@
 
-# Mes Scripts Shell
-
 ## Script Utilisation de $*
 
 ### Nom du fichier : Utilisation-$.v2.sh
@@ -38,7 +53,6 @@ Ce script permet la suppresion des signification des espaces contenus dans $*
 
 Une description detaillé sur le drive : v0.1-01-Comparatif des variables $* et $@
 
-# Mes Scripts Shell
 
 ## Script Utilisation de $*
 
@@ -49,8 +63,6 @@ Une description detaillé sur le drive : v0.1-01-Comparatif des variables $* et 
 Ce script permet la suppresion des signification des espaces contenus dans $*
 
 Une description detaillé sur le drive : v0.1-01-Comparatif des variables $* et $@
-
-# Mes Scripts Shell
 
 ## Script Utilisation de $@
 
@@ -64,7 +76,6 @@ Les arguments placés entre guillemets sont considérés comme étant un seul ar
 
 Une description detaillé sur le drive : v0.1-01-Comparatif des variables $@
 
-# Mes Scripts Shell
 
 ## Script Appel d'une fonction
 
@@ -78,7 +89,6 @@ Dès qu'une fonction est définie, celle-ci est considérée par le shell comme 
 
 Une description detaillé sur le drive : V.01-Définition d'une fonction
 
-# Mes Scripts Shell
 
 ## Script Retour à une fonction dans un script
 
@@ -93,7 +103,6 @@ Le code erreur retourné par la fonction est récupérable grâce à la variable
 
 Une description detaillé sur le drive : V.01-Définition d'une fonction
 
-# Mes Scripts Shell
 
 ## Script Portée des variables
 
@@ -108,8 +117,6 @@ et utilisée également au niveau du programme principal (ligne 25 et 27).
 
 Une description detaillé sur le drive : V.01-Définition d'une fonction
 
-# Mes Scripts Shell
-
 ## Script Définition d'une variable locale
 
 ### Nom du fichier : Definition-variables-locales
@@ -119,8 +126,6 @@ Une description detaillé sur le drive : V.01-Définition d'une fonction
 La commande typeset permet de définir des variables locales à une fonction.
 
 Une description detaillé sur le drive : V.01-Définition d'une fonction
-
-# Mes Scripts Shell
 
 ## Script Passage d'un argument
 
@@ -134,8 +139,6 @@ Par contre, la variable $0 contient toujours le nom du script.
 
 Une description detaillé sur le drive : V.01-Définition d'une fonction  
 
-# Mes Scripts Shell
-
 ## Script Exploiter l'affichage d'une fonction dans un script
 
 ### Nom du fichier : Exploiter-affichage-fonction
@@ -145,8 +148,6 @@ Une description detaillé sur le drive : V.01-Définition d'une fonction
 Comme n'importe quelle commande renvoyant un résultat, une fonction peut également être placée à l'intérieur de caractères de substitution de commande `` ou $( ).
 
 Une description detaillé sur le drive : V.01-Définition d'une fonction
-
-# Mes Scripts Shell
 
 ## Script Redirection des entrées/sorties dans un script
 
@@ -158,8 +159,6 @@ La commande interne exec permet de manipuler les descripteurs de fichier du shel
 Utilisée à l'intérieur d'un script, elle permet de rediriger de manière globale les entrées/sorties de celui-ci.
 
 Une description detaillé sur le drive : V.01-Gestion des entrées/sorties standard
-
-# Mes Scripts Shell
 
 ## Script Gestion de fichier dans un script
 
@@ -173,8 +172,6 @@ L'avantage est de pouvoir manipuler des fichiers tout en conservant les descript
 
 Une description detaillé sur le drive : V.01-Gestion des entrées/sorties standard
 
-# Mes Scripts Shell
-
 ## Script Redirection d'une execution d'un script
 
 ### Nom du fichier : redirecton-execution.sh
@@ -184,8 +181,6 @@ Une description detaillé sur le drive : V.01-Gestion des entrées/sorties stand
 Les redirections peuvent également être faites au moment de l'exécution du script.
 
 Une description detaillé sur le drive : V.01-Gestion des entrées/sorties standard 
-
-# Mes Scripts Shell
 
 ## Script Redirection interne d'un script
 
@@ -197,9 +192,6 @@ Les redirections d'entrée (0) et de sortie (1) standards peuvent également êt
 
 Une description detaillé sur le drive : V.01-Gestion des entrées/sorties standard
 
-
-# Mes Scripts Shell
-
 ## Script Découper une ligne de champs
 
 ### Nom du fichier : Découper-ligne-champs.sh
@@ -210,9 +202,6 @@ Pour cela, il faut modifier la valeur de la variable IFS.
 
 Une description detaillé sur le drive : V.01-Gestion des entrées/sorties standard
 
-
-# Mes Scripts Shell
-
 ## Script Utiliser trap à partir d'un script shell
 
 ### Nom du fichier : variable-trap.sh
@@ -221,8 +210,6 @@ Une description detaillé sur le drive : V.01-Gestion des entrées/sorties stand
 L'utilisation de trap dans un script shell va permettre de gérer des actions en fonctions de différents signaux reçus.
 
 Une description detaillé sur le drive : V.01-Gestion des signaux
-
-# Mes Scripts Shell
 
 ## Script Gestion du menu avec select
 
@@ -242,8 +229,6 @@ La variable REPLY qui contient l'indice de l'item sélectionné.
 
 Une description detaillé sur le drive : V.01-Gestion de menu avec select
 
-# Mes Scripts Shell
-
 ## Script Analyse des options d'un script avec GetOps
 
 ### Nom du fichier : definition-option.sh
@@ -252,10 +237,7 @@ Une description detaillé sur le drive : V.01-Gestion de menu avec select
 Pour getopts, une option est composée d'un caractère précédé du signe "+" ou "-".
 L'appel à la commande getopts récupère l'option suivante et retourne un code vrai tant qu'il reste des options à analyser.
 
-
 Une description detaillé sur le drive: v0.1-09-Avancé Analyse des options d'un script avec getopts
-
-# Mes Scripts Shell
 
 ## Script Gestion des erreurs
 
@@ -270,8 +252,6 @@ En cas d'option invalide :
 
 Une description detaillé sur le drive: v0.1-09-Avancé Analyse des options d'un script avec getopts
 
-# Mes Scripts Shell
-
 ## Script Option valide avec argument manquant
 
 ### Nom du fichier : Option-valide-arg-manquant.sh
@@ -280,8 +260,6 @@ Une description detaillé sur le drive: v0.1-09-Avancé Analyse des options d'un
 Lorsque l'argument d'une option est absent, la variable option est initialisée avec le caractère ":" et OPTARG contient la valeur de l'option concernée (ligne 29).
 
 Une description detaillé sur le drive: v0.1-09-Avancé Analyse des options d'un script avec getopts
-
-# Mes Scripts Shell
 
 ## Script Option valide avec argument manquant
 
@@ -293,8 +271,6 @@ la variable option est initialisée avec le caractère ":" et OPTARG contient la
 
 Une description detaillé sur le drive: v0.1-09-Avancé Analyse des options d'un script avec getopts
 
-# Mes Scripts Shell
-
 ## Script Gestion d'un processus en arrière plan
 
 ### Nom du fichier : gestion-processus-arriere-plan.sh
@@ -303,8 +279,6 @@ Une description detaillé sur le drive: v0.1-09-Avancé Analyse des options d'un
 La commande wait permet au shell d'attendre la terminaison d'un processus lancé en arrière-plan.
 
 Une description detaillé sur le drive: v0.1-10-Avancé Gestion d'un processus en arrière plan
-
-# Mes Scripts Shell
 
 ## Script Gestion d'un processus en arrière plan
 

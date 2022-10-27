@@ -14,28 +14,25 @@ Ce Readme regroupe tous les scripts étudiés pendant notre formation de "Consul
 - ReactJS
 - Bases de données : PostgreSQL et Oracle
 
-
 ## Scripts debutant
 Dans le dossier Scripts-debutant on a la liste des scripts d'initiations .
 
 ## Scripts intermédiaires
+Ensemble de scripts avec le niveaux intermédiaires.
+
 ## Scripts Avancées
 
-## Programmation SHELL
-### Scripts Bash - Ateliers 
+Ensemble de scripts avec le niveaux avancé.
 
-### Scripts Bash - Vidéos Youtube Algomius
+### Scripts  Algomius
 En plus des ateliers, nous avons regardé et testé les scripts utilisés dans les vidéos d'Algomius sur Youtube.
 Voici la liste des scripts que l'on peut retrouver dans le dossier [scripts_algomius]
-
-
 
 ## Bases de données
 ### PostgreSQL
 - [Atelier Talend], TP Orion : création d'un script pour remplir la table time_dim avec des dates
 
 ### Oracle
-
 
 [scripts_algomius]: <https://github.com/AdaTeamPrj/scripts-formation/tree/main/scripts_algomius>
 [Atelier Talend]: <https://github.com/AdaTeamPrj/scripts-formation/blob/main/Bases_de_donn%C3%A9es/PostgreSQL/atelierTalend_timeDim>
